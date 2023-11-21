@@ -1,0 +1,8 @@
+prefix=/workspaces/ws_labs/catkin_ws/install
+
+Name: testaction
+Description: Description of testaction
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /workspaces/ws_labs/catkin_ws/install/setup.sh

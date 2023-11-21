@@ -1,0 +1,2 @@
+exercice_1:exercice_2:intro:lab2:lab3:svctest:testaction
+-DCATKIN_DEVEL_PREFIX=/workspaces/ws_labs/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/workspaces/ws_labs/catkin_ws/install -G Unix Makefiles

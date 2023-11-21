@@ -1,0 +1,8 @@
+prefix=/workspaces/ws_labs/catkin_ws/install
+
+Name: exercice_1
+Description: Description of exercice_1
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
