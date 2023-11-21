@@ -3,8 +3,8 @@
 
 #include "lab3/ChargeAction.h"
 
-#define ACTION_TOPIC "/charge"
-#define CHARGING_TIME 11
+#define ACTION_NAME "charge"
+#define CHARGING_TIME 60
 
 typedef actionlib::SimpleActionServer<lab3::ChargeAction> Server;
 
@@ -55,7 +55,7 @@ public:
 
 int main(int argc, char **argv) {
     ros::init(argc, argv, "lab3_robot");
-    ChargeAction chargeAction("charge");
+    ChargeAction chargeAction(ACTION_NAME);
 
     while (ros::ok()) {
         ros::spinOnce();

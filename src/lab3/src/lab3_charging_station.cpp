@@ -4,6 +4,8 @@
 
 #include <lab3/ChargeAction.h>
 
+#define ACTION_NAME "charge"
+
 typedef actionlib::SimpleActionClient<lab3::ChargeAction> Client;
 
 class ChargeActionClient
@@ -42,7 +44,7 @@ public:
 
 int main(int argc, char **argv) {
     ros::init(argc, argv, "charging_station");
-    ChargeActionClient client("charge");
+    ChargeActionClient client(ACTION_NAME);
 
     client.waitForServer();
     client.sendGoal(90);
