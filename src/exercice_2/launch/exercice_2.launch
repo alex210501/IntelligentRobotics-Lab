@@ -1,0 +1,18 @@
+<launch>
+    <node pkg="exercice_2" type="ex2_charging_station" name="cs_432" output="screen">
+        <param name="name" value="cs_432" />
+        <param name="id" value="432" />
+        <param name="timeout" value="5" />
+    </node>
+    <node pkg="exercice_2" type="ex2_charging_station" name="cs_433">
+        <param name="name" value="cs_433" />
+        <param name="id" value="433" />
+        <param name="timeout" value="1" />
+    </node>
+    <node pkg="exercice_2" type="ex2_charging_station" name="cs_434">
+        <param name="name" value="cs_434" />
+        <param name="id" value="434" />
+        <param name="timeout" value="3" />
+    </node>
+    <node pkg="exercice_2" type="ex2_robot" name="robot" output="screen"/>
+</launch>

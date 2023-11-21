@@ -1,0 +1,8 @@
+# Define the charge goal
+int32 goal
+---
+# Define the feedback - current battery
+int32 battery
+---
+# Result
+bool result

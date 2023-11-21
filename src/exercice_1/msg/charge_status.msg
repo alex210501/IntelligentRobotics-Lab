@@ -1,0 +1,3 @@
+int32 room_id
+string room_name
+int16 charge_status
